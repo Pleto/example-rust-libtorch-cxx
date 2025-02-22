@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-LIBTORCH_DIR=${1:-"libtorch"}  # Default installation directory
+LIBTORCH_DIR=${1:-"libtorch"}
 PYTORCH_REPO="https://github.com/pytorch/pytorch.git"
 PYTORCH_BRANCH="main"
 BUILD_TYPE="Release"
